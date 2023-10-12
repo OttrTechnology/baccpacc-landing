@@ -7,15 +7,20 @@
     border-radius: 0.88rem;
     position: relative;
    
-    img {
+    .img {
         width: 14.625rem;
         height: 12.125rem;
+        position: relative;
+
+        background-position: center;
+        background-size: cover;
+
     }
 
     .heart {
         position: absolute;
-        top: 1.14rem;
-        right: 1.06rem;
+        top: 0.62rem;
+        right: 0.7rem;
     }
 }
 .tc0 {
@@ -44,8 +49,8 @@
     align-items: center;
     gap: 0.41556rem;
     position: absolute;
-    bottom: 5.49rem;
-    left: 0.86rem;
+    bottom: 0.49rem;
+    left: 0.42rem;
     span {
         color: var(--neutral-white, #FFF);
         font-family: "Manrope";

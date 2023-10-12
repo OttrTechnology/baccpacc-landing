@@ -13,12 +13,16 @@ const Trip = ({trip}: TripProps) => {
 
     return (
         <div className= {`trip ${id}`}>
-            <img src= {img} />
-            <div className="heart"> <Heart /> </div>
-            <div className="date">
-                <Calendar />
-                <span> {date} </span>
+            <div className="img" style = {{
+                backgroundImage: `url(${img})`
+            }}>
+                <div className="heart"> <Heart /> </div>
+                <div className="date">
+                    <Calendar />
+                    <span> {date} </span>
+                </div>
             </div>
+                
             <div className="trip-details">
                 <p className="trip-title">{title}</p>
                 <p className="trip-slots">{slots} slots remaining</p>
