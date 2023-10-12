@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    column-gap: 0.625rem;
+
+    p {
+        font-family: "Manrope";
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.708rem;
+        letter-spacing: 0em;
+        color: rgba(28, 28, 28, 1);
+        text-transform: capitalize;
+    }
+}

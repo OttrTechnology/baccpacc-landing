@@ -1,0 +1,91 @@
+.trip {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 15.5rem;
+    padding: 0.4375rem 0.4375rem 1.0625rem 0.4375rem;
+    border-radius: 0.88rem;
+    position: relative;
+   
+    img {
+        width: 14.625rem;
+        height: 12.125rem;
+    }
+
+    .heart {
+        position: absolute;
+        top: 1.14rem;
+        right: 1.06rem;
+    }
+}
+.tc0 {
+    margin-bottom: 6.5rem;
+}
+
+.tc1 {
+    margin-top: 5rem;
+}
+
+.tc2 {
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+}
+
+.tc3 {
+    margin-top: -1.25rem;
+}
+
+.date {
+    border-radius: 0.41556rem;
+    background-color: rgba(28, 28, 28, 0.90);
+    display: inline-flex;
+    height: 1.66225rem;
+    padding: 0rem 0.41556rem;
+    align-items: center;
+    gap: 0.41556rem;
+    position: absolute;
+    bottom: 5.49rem;
+    left: 0.86rem;
+    span {
+        color: var(--neutral-white, #FFF);
+        font-family: "Manrope";
+        font-size: 0.62338rem;
+        font-weight: 700;
+        line-height: 0.83113rem; /* 133.333% */
+        letter-spacing: 0.00625rem;
+    }
+}
+.trip-details {
+
+    font-family: "Manrope";
+
+    .trip-title {
+        color: var(--neutral-black, #1C1C1C);
+        font-size: 0.875rem;
+        font-weight: 700;
+        line-height: 1.25rem; /* 142.857% */
+        margin-bottom: 0.12rem;
+        margin-top: 1px;
+    }
+
+    .trip-slots {
+        color: var(--neutral-light-gray, #6A6C6A);
+        font-size: 0.75rem;
+        font-weight: 500;
+        line-height: 1rem; /* 133.333% */
+        letter-spacing: 0.0075rem;
+        margin-bottom: 0.12rem;
+    }
+
+    .trip-price {
+        color: var(--neutral-black, #1C1C1C);
+        font-size: 0.75rem;
+        font-weight: 500;
+        line-height: 1rem; /* 133.333% */
+        letter-spacing: 0.0075rem;
+    }
+
+    .individual {
+        color: rgba(106, 108, 106, 1)
+    }
+}
