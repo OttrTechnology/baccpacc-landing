@@ -1,7 +1,10 @@
 .body {
-    margin-top: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 2.62rem;
+}
+
+.trips {
+    width: calc(100% - 1.25rem);
+    margin-left: 1.25rem;
 }

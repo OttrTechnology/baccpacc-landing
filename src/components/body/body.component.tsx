@@ -1,13 +1,18 @@
 import Content from "../content/content.component";
-import Trips from "../trips/trips.component";
+import Trips from "../../assets/trips.png";
+import { Grid } from '@mantine/core';
+
 import "./body.styles.scss";
 
 const Body = () => {
     return (
-        <div className="body">
+        <Grid.Col span={12} className="body">
+            
             <Content />
-            <Trips />
-        </div>
+            <Grid.Col span={5}>
+                <img src= {Trips} className="trips" alt="trips" />
+            </Grid.Col>
+        </Grid.Col>
     )
 }
 

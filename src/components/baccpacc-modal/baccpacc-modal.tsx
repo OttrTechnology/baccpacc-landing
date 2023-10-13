@@ -15,10 +15,10 @@ const BaccpaccModal = () => {
         <>
             {
                 createPortal(
-                    <Modal opened= {opened} onClose={close} centered size= "auto" >
-                        <div className="model-content">
-                            <div className="qr-container"> <Qr /> </div>
-                            <p className="modal-text">Scan to download baccpacc</p>
+                    <Modal opened= {opened} onClose={close} padding= {0} centered size="auto" className="modal" radius={"1.25rem"} >
+                        <div className="modal-content">
+                            <Qr />
+                            <p className="modal-text">Scan to download Baccpacc</p>
                         </div>
                     </Modal>,
                     document.body

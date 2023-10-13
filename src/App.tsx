@@ -1,15 +1,18 @@
-import Header from './components/header/header.component';
-import Body from './components/body/body.component';
+import { Route, Routes } from "react-router-dom";
+import Home from "./routes/home/home";
 import './App.scss';
+import MobileApp from "./routes/app/app";
+
 
 
 function App() {
 
   return (
-    <div className='App'>
-      <Header />
-      <Body />
-    </div>
+    <Routes>
+      <Route path='/' element = {<Home />}></Route>
+      <Route path="/app" element= {<MobileApp />}/>
+    </Routes>
+    
   )
 }
 
