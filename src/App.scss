@@ -4,14 +4,14 @@
 }
 
 
-//@media queries are also used in header.styles.scss, body.styles.scss, content.styles.scss, content-header.styles.scss
-@media only screen and (max-width: 346px) {
+//@media queries are also used in header.styles.scss, body.styles.scss, content.styles.scss, content-header.styles.scss, store-button.styles.css
+@media only screen and (max-width: 360px) {
     *,*::before, *::after {
         font-size: 9px;
     }
 }
 
-@media only screen and (min-width: 346px) {
+@media only screen and (min-width: 361px) {
     *,*::before, *::after {
         font-size: 10px;
     }
@@ -19,21 +19,10 @@
 
 @media only screen and (min-width: 768px) {
     *,*::before, *::after {
-        font-size: 12px;
-    }
-}
-
-@media only screen and (min-width: 1281px) {
-    *,*::before, *::after {
-        font-size: 14px;
-    }
-}
-
-@media only screen and (min-width: 1351px) {
-    *,*::before, *::after {
         font-size: 16px;
     }
 }
+
 
 
 

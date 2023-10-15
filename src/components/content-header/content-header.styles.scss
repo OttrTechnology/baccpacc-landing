@@ -20,5 +20,14 @@
 @media only screen and (max-width: 1023px) {
     .content-main {
         text-align: center;
+
+        .content-main-header {
+            margin-bottom: 0.75em;
+        }
+
+        .content-main-body {
+            font-size: 14px;  
+        }
     }
+
 }
