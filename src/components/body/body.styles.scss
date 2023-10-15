@@ -1,36 +1,37 @@
 .body {
     margin-top: auto;
     margin-bottom: auto;
-    // padding: 4px 0 0 0;
-    box-sizing: border-box;
+}
+
+.body-content {
+    padding-top: 4rem;
+    padding-bottom: 5.37rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .trips {
-    width: 85%;
-    margin-left: 5.25rem;
-    margin-bottom: 2rem;
+    width: 95.44%;
+    margin-left: 1.625rem;
 }
 
-//@media queries are only in App.scss and body.styles.scss
-@media only screen and (max-width: 1000px) {
+//general styles for mobile/tablet view
+@media only screen and (max-width: 1023px) {
 
     .body-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        min-height: 70vh;
+         display: flex;
+         flex-direction: column;
     }
 
     .trips {
-        width: 75%;
-        margin: 0;
+        width: 74%;
+        margin: 0 auto;
     }
 
-    .trip-img-container {
+    .trips-img-container {
         align-items: center;
-        justify-content: center;
         display: flex;
-        margin: 1rem 0;
     }
 
     .mobile-footer {
@@ -40,16 +41,9 @@
     }
 }
 
-//this @media is for bigger button sizes for tablet view
-@media only screen and (min-width: 700px) {
-
-    //class store-button is from store button component
-    .store-button {
-        font-size: 18px;
+//so that the picture doesnt get too small in small screen
+@media only screen and (max-width: 767px) {
+    .trips {
+        width: 90%;
     }
-
-    .mobile-footer {
-        column-gap: 5em;
-    }
-
 }
