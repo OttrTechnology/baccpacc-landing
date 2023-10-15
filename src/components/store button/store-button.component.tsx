@@ -16,7 +16,7 @@ export enum BUTTON_TYPES {
 
 const StoreButton = ({buttonType}: StoreButtonProps) => {
     if (buttonType === "google") return (
-        <a href="https://play.google.com/store/apps/details?id=com.ottr.baccpacc&hl=en&gl=US">
+        <a href="https://play.google.com/store/apps/details?id=com.ottr.baccpacc&hl=en&gl=US" target="_blank" > 
             <button className="store-button">
                 <div className="store-button-content">
                     <GoogleIcon />
@@ -29,7 +29,7 @@ const StoreButton = ({buttonType}: StoreButtonProps) => {
         </a>
     );
     else if (buttonType === "apple") return (
-        <a href="https://apps.apple.com/np/app/baccpacc/id6448676201">
+        <a href="https://apps.apple.com/np/app/baccpacc/id6448676201" target="_blank" >
             <button className="store-button">
                 <div className="store-button-content">
                     <AppstoreIcon />

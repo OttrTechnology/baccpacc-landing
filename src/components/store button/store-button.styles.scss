@@ -1,6 +1,6 @@
 .store-button {
-    padding: 0.625rem 1.25rem 0.625rem 0.625rem;
-    border-radius: 0.5rem;
+    padding: 0.625em 1.25em 0.625em 0.625em;
+    border-radius: 0.5em;
     background-color: rgba(33, 33, 33, 1);
     border: none;
     cursor: pointer;
@@ -8,7 +8,7 @@
 
 .store-button-content {
     display: flex;
-    column-gap: 0.375rem;
+    column-gap: 0.375em;
     color: rgba(255, 255, 255, 1);
     align-items: center;
 }
@@ -21,14 +21,14 @@
     column-gap: 2px;
 
     .top-text {
-        font-size: 0.75rem;
+        font-size: 0.75em;
         font-weight: 500;
         letter-spacing: 0.015rem;
         line-height: 100%;
     }
     
     .bottom-text {
-        font-size: 1.25rem;
+        font-size: 1.25em;
         font-weight: 500;
         line-height: 100%; /* 1.25rem */
         text-transform: capitalize;

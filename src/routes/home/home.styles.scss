@@ -1,11 +1,10 @@
 .home {
-    // position: absolute;
-    // left: 50%;
-    // transform: translate(-50%);
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    margin-top: 2.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     width: 91.66667%;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
