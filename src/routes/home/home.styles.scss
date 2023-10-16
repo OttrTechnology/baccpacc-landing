@@ -3,3 +3,12 @@
   width: 91.66667%;
   min-height: 100vh;
 }
+
+@media only screen and (min-width: 1023px) {
+    .home {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+}
