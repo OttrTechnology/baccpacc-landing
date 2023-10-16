@@ -2,7 +2,7 @@ import { Grid } from "@mantine/core";
 import ContentHeader from "../content-header/content-header.component";
 import StoreButton, {
   BUTTON_TYPES,
-} from "../store button/store-button.component";
+} from "../store-button/store-button.component";
 import "./content.styles.scss";
 
 type ContentProps = {
