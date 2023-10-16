@@ -1,49 +1,48 @@
 .body {
-    margin-top: auto;
-    margin-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .body-content {
-    padding-top: 4rem;
-    padding-bottom: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .trips {
-    width: 95.44%;
-    margin-left: 1.625rem;
+  width: 95.44%;
+  margin-left: 1.625rem;
 }
 
 //general styles for mobile/tablet view
 @media only screen and (max-width: 1023px) {
+  .body-content {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .body-content {
-         display: flex;
-         flex-direction: column;
-    }
+  .trips {
+    width: 74%;
+    margin: 0 auto;
+  }
 
-    .trips {
-        width: 74%;
-        margin: 0 auto;
-    }
+  .trips-img-container {
+    align-items: center;
+    display: flex;
+  }
 
-    .trips-img-container {
-        align-items: center;
-        display: flex;
-    }
-
-    .mobile-footer {
-        display: flex;
-        justify-content: center;
-        column-gap: 2rem;
-    }
+  .mobile-footer {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+  }
 }
 
 //so that the picture doesnt get too small in small screen
 @media only screen and (max-width: 767px) {
-    .trips {
-        width: 90%;
-    }
+  .trips {
+    width: 90%;
+  }
 }

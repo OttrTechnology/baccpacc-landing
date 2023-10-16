@@ -1,27 +1,26 @@
 .content {
-    display: flex;
-    width: 33.625rem;
-    flex-direction: column;
-    row-gap: 2rem;
+  display: flex;
+  width: 33.625rem;
+  flex-direction: column;
+  row-gap: 2rem;
 }
 
 .content-footer {
-    display: flex;
-    column-gap: 24px;
-    margin-bottom: 5rem;
-    flex-wrap: wrap;
-    row-gap: 24px;
+  display: flex;
+  column-gap: 24px;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
+  row-gap: 24px;
 }
 
 @media only screen and (max-width: 1023px) {
+  .content {
+    row-gap: 24px;
+  }
 
-    .content {
-        row-gap: 24px;
-    }
-
-    .content-footer {
-        justify-content: center;
-        column-gap: 16px;
-        row-gap: 16px;
-    }
+  .content-footer {
+    justify-content: center;
+    column-gap: 16px;
+    row-gap: 16px;
+  }
 }

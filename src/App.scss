@@ -1,28 +1,31 @@
-*,*::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
 }
-
 
 //@media queries are also used in header.styles.scss, body.styles.scss, content.styles.scss, content-header.styles.scss, store-button.styles.css
 @media only screen and (max-width: 360px) {
-    *,*::before, *::after {
-        font-size: 9px;
-    }
+  *,
+  *::before,
+  *::after {
+    font-size: 9px;
+  }
 }
 
 @media only screen and (min-width: 361px) {
-    *,*::before, *::after {
-        font-size: 10px;
-    }
+  *,
+  *::before,
+  *::after {
+    font-size: 10px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    *,*::before, *::after {
-        font-size: 16px;
-    }
+  *,
+  *::before,
+  *::after {
+    font-size: 16px;
+  }
 }
-
-
-
-

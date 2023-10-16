@@ -4,12 +4,12 @@ import Body from "../../components/body/body.component";
 import "./home.styles.scss";
 
 const Home = () => {
-    return (
-        <div className="home">
-            <Header />
-            <Body />
-        </div>
-    )
-}
+  return (
+    <div className="home">
+      <Header />
+      <Body />
+    </div>
+  );
+};
 
 export default Home;

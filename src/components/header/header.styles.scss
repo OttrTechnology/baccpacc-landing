@@ -1,28 +1,28 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
-    column-gap: 0.625rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.625rem;
 
-    p {
-        font-family: "Manrope";
-        margin: 0;
-        font-size: 1.25rem;
-        font-weight: 700;
-        line-height: 1.708rem;
-        letter-spacing: 0em;
-        color: rgba(28, 28, 28, 1);
-        text-transform: capitalize;
-    }
+  p {
+    font-family: "Manrope";
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.708rem;
+    letter-spacing: 0em;
+    color: rgba(28, 28, 28, 1);
+    text-transform: capitalize;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
-    .header {
-        justify-content: center;
-    }
+  .header {
+    justify-content: center;
+  }
 }

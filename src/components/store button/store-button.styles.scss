@@ -1,56 +1,55 @@
 .store-button {
-    padding: 10px 20px 10px 10px;
-    border-radius: 8px;
-    background-color: rgba(33, 33, 33, 1);
-    border: none;
-    cursor: pointer;
+  padding: 10px 20px 10px 10px;
+  border-radius: 8px;
+  background-color: rgba(33, 33, 33, 1);
+  border: none;
+  cursor: pointer;
 }
 
 .store-button-content {
-    display: flex;
-    column-gap: 0.375em;
-    color: rgba(255, 255, 255, 1);
-    align-items: center;
-    white-space: nowrap;
+  display: flex;
+  column-gap: 0.375em;
+  color: rgba(255, 255, 255, 1);
+  align-items: center;
+  white-space: nowrap;
 }
 
 .store-button-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  column-gap: 2px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    column-gap: 2px;
+  .top-text {
+    font-size: 0.75em;
+    font-weight: 500;
+    letter-spacing: 0.015rem;
+    line-height: 100%;
+  }
 
-    .top-text {
-        font-size: 0.75em;
-        font-weight: 500;
-        letter-spacing: 0.015rem;
-        line-height: 100%;
-    }
-    
-    .bottom-text {
-        font-size: 1.25em;
-        font-weight: 500;
-        line-height: 100%; /* 1.25rem */
-        text-transform: capitalize;
-    }
+  .bottom-text {
+    font-size: 1.25em;
+    font-weight: 500;
+    line-height: 100%; /* 1.25rem */
+    text-transform: capitalize;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
-    .store-button-content {
-        svg {
-            height: 36px;
-            width: 36px;
-        }
+  .store-button-content {
+    svg {
+      height: 36px;
+      width: 36px;
+    }
+  }
+
+  .store-button-text {
+    .top-text {
+      font-size: 12px;
     }
 
-    .store-button-text {
-        .top-text {
-            font-size: 12px;
-        }
-        
-        .bottom-text {
-            font-size: 16px;
-        }
+    .bottom-text {
+      font-size: 16px;
     }
+  }
 }
