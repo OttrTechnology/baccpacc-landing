@@ -6,7 +6,7 @@ import MobileApp from "./routes/app/app";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />}></Route>
+      <Route path="/" element={<Home />} />
       <Route path="/app" element={<MobileApp />} />
     </Routes>
   );

@@ -5,14 +5,13 @@ import StoreButton, {
 } from "../store-button/store-button.component";
 import "./content.styles.scss";
 
-type ContentProps = {
-  col: 5 | 12;
-};
+type ContentProps = { col: 5 | 12 };
 
 const Content = ({ col }: ContentProps) => {
   return (
     <Grid.Col span={col} className="content">
       <ContentHeader />
+
       <Grid.Col span={12} className="content-footer">
         <StoreButton buttonType={BUTTON_TYPES.google} />
         <StoreButton buttonType={BUTTON_TYPES.apple} />
