@@ -17,7 +17,7 @@ const MobileApp = () => {
     }
   }, []);
 
-  return "";
+  return null;
 };
 
 export default MobileApp;
