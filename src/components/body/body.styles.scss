@@ -1,8 +1,3 @@
-.body {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .body-content {
   padding-top: 1.5rem;
   padding-bottom: 2.5rem;
@@ -20,6 +15,7 @@
 @media only screen and (max-width: 1023px) {
   .body-content {
     display: flex;
+    padding-top: 32px;
     flex-direction: column;
   }
 

@@ -1,9 +1,4 @@
-.home {
-  min-height: 100vh;
-  padding: 0 60px;
-}
-
-.container {
+.wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,12 +6,8 @@
 }
 
 @media only screen and (max-width: 1023px) {
-  .home {
-    padding-left: 0;
-    padding-right: 0;
-  }
 
-  .container {
+  .wrapper {
     min-height: calc(100vh - 56px);
   }
 }

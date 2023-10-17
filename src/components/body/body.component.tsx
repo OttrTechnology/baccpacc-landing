@@ -9,7 +9,9 @@ const Body = () => {
   
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1023px)" });
   const isMoreThan1600 = useMediaQuery({query: "(min-width: 1600px)"})
-  const col = isTabletOrMobile ? 12 : isMoreThan1600? 5 : 6;
+  //const col = isTabletOrMobile ? 12 : isMoreThan1600? 5 : 6;
+  const col = isTabletOrMobile ? 12 : 5;
+
 
   return (
     <Grid align="center" justify="center" className="body">

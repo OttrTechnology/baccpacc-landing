@@ -7,7 +7,7 @@ const Home = () => {
   return (
       <div className="home" >
           <Header />
-          <Container className="container">
+          <Container className="wrapper" size= "xl" >
               <Body />
           </Container>
       </div>
