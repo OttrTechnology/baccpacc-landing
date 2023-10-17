@@ -5,11 +5,13 @@ import "./home.styles.scss";
 
 const Home = () => {
   return (
-    <Container size={"91.66667%"} className="home">
-      <Header />
-      <Body />
-    </Container>
-  );
-};
+      <div className="home" >
+          <Header />
+          <Container className="container">
+              <Body />
+          </Container>
+      </div>
+  )
+}
 
 export default Home;

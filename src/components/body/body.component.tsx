@@ -6,9 +6,10 @@ import Trips from "../../assets/trips.png";
 import "./body.styles.scss";
 
 const Body = () => {
-  //useMediaQuery is only used here and in header.component.tsx for mobile view
+  
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1023px)" });
-  const col = isTabletOrMobile ? 12 : 5;
+  const isMoreThan1600 = useMediaQuery({query: "(min-width: 1600px)"})
+  const col = isTabletOrMobile ? 12 : isMoreThan1600? 5 : 6;
 
   return (
     <Grid align="center" justify="center" className="body">

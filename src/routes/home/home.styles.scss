@@ -1,3 +1,22 @@
 .home {
   min-height: 100vh;
+  padding: 0 60px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 72px);
+}
+
+@media only screen and (max-width: 1023px) {
+  .home {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .container {
+    min-height: calc(100vh - 56px);
+  }
 }

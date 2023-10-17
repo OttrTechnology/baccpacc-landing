@@ -5,7 +5,7 @@ import StoreButton, {
 } from "../store-button/store-button.component";
 import "./content.styles.scss";
 
-type ContentProps = { col: 5 | 12 };
+type ContentProps = { col: 5 | 12 | 6 };
 
 const Content = ({ col }: ContentProps) => {
   return (
